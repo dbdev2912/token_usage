@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: "UTM Avo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+textarea{
+    font-family: "UTM Avo", sans-serif;
+    resize: vertical;
+ }
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "UTM Avo", sans-serif !important;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+
+*::-webkit-scrollbar{
+    width: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #777;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+    background-color: #333;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: #fff;
+}

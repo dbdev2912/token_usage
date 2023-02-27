@@ -1,0 +1,15 @@
+.login-form {
+    width: 100%;
+    max-width: 448px;
+    min-height: 600px;
+}
+
+.lg-btn{
+    background-color: $mylan-color;
+    color: white;
+    transition: ease-in 0.25s;
+    
+    &:hover{
+        box-shadow: 1px 1px 15px 2px rgba(0,0,0,0.2);
+    }
+}
